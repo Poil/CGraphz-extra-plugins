@@ -1,5 +1,5 @@
 <?php
-header('Content-Type: text/plain');
+header('Content-Type: application/json');
 if(!$cache_info = @apc_cache_info()) {
 die("No cache info available.");
 }
